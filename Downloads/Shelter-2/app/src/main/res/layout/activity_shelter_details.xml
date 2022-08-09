@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<!--
+GridView with 4 value for numColumns attribute
+-->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backbuttonHandler"
+        android:text="Back to Shelter list"/>
+    <Button
+        android:id="@+id/addAnimalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submitbuttonHandler"
+        android:text="Add an animal"/>
+
+    <CheckBox
+        android:id="@+id/enableRecieve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D500F9"
+        android:buttonTint="#D500F9"
+        android:onClick="checkBoxHandler"
+        android:text="@string/enableRecieve" />
+
+    <GridView
+    android:id="@+id/headerView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:numColumns="4" />
+<GridView
+    android:id="@+id/simpleGridView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:footerDividersEnabled="false"
+    android:padding="1dp"
+    android:numColumns="4" />
+
+    <Button
+        android:id="@+id/removeAnimalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deletebuttonHandler"
+        android:text="Remove an animal"/>
+
+
+
+
+
+</LinearLayout>
+
