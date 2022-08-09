@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shelter</string>
+    <string name="addform">Add new animal to shelter</string>
+    <string name="animal_name">Animal name</string>
+    <string name="animal_type">Type</string>
+    <string name="enableRecieve">Enable Receiving Animals</string>
+    <string name="removeform">Remove an animal from Shelter</string>
+</resources>
